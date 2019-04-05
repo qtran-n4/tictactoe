@@ -1,6 +1,9 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 
+/**
+ * Square props
+ */
 interface ~SquareProps extends React.ComponentProps {
     public value: string;
     public onClick: {function(): void}
@@ -17,6 +20,9 @@ function Square(props: SquareProps): React.Element<?> {
   );
 }
 
+/**
+ * Board props
+ */
 interface ~BoardProps extends React.ComponentProps {
     public squares: [string];
     public onClick: {function(int): void}
@@ -26,6 +32,9 @@ interface ~BoardProps extends React.ComponentProps {
  * Board React component
  */
 class Board extends React.Component<BoardProps, Object> {
+  /**
+   * Render the i-th square on the board
+   */	
   renderSquare(i: int) {
     return (
       <Square
@@ -135,7 +144,7 @@ export default public class Game extends React.Component<React.ComponentProps, G
     if (winner) {
       status = "Winner: " + winner;
     } else {
-      status = "Next player: " + (this.state.xIsNext ? "X" : "O");
+      status = "Next player BLAH: " + (this.state.xIsNext ? "X" : "O");
     }
 
     return (

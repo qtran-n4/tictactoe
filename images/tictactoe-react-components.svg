@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xl="http://www.w3.org/1999/xlink" viewBox="153 212 541 374" width="541" height="374">
+  <defs>
+    <font-face font-family="Helvetica Neue" font-size="12" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.10.2 
+    <dc:date>2019-04-04 15:49:46 +0000</dc:date>
+  </metadata>
+  <g id="Canvas_1" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-dasharray="none" fill="none">
+    <title>Canvas 1</title>
+    <rect fill="white" x="153" y="212" width="541" height="374"/>
+    <g id="Canvas_1: Layer 1">
+      <title>Layer 1</title>
+      <g id="Graphic_2">
+        <rect x="154" y="214" width="539.5" height="371" fill="white"/>
+        <rect x="154" y="214" width="539.5" height="371" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_4">
+        <rect x="170.5" y="264.25" width="323" height="297.25" fill="white"/>
+        <rect x="170.5" y="264.25" width="323" height="297.25" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_3">
+        <text transform="translate(159.372 217)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="0" y="11">Game</tspan>
+        </text>
+      </g>
+      <g id="Graphic_5">
+        <text transform="translate(179.5 264.75)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="15987212e-20" y="11">Board</tspan>
+        </text>
+      </g>
+      <g id="Graphic_6">
+        <path d="M 540.475 264.25 L 650.025 264.25 C 662.9832 264.25 673.5 330.834 673.5 412.875 C 673.5 494.916 662.9832 561.5 650.025 561.5 L 540.475 561.5 C 527.5168 561.5 517 494.916 517 412.875 C 517 330.834 527.5168 264.25 540.475 264.25 Z" fill="white"/>
+        <path d="M 540.475 264.25 L 650.025 264.25 C 662.9832 264.25 673.5 330.834 673.5 412.875 C 673.5 494.916 662.9832 561.5 650.025 561.5 L 540.475 561.5 C 527.5168 561.5 517 494.916 517 412.875 C 517 330.834 527.5168 264.25 540.475 264.25 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_7">
+        <text transform="translate(541 274)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="2309264e-19" y="11">Game Info</tspan>
+        </text>
+      </g>
+      <g id="Group_30">
+        <g id="Graphic_8">
+          <rect x="189" y="298" width="81.075" height="70.5" fill="white"/>
+          <rect x="189" y="298" width="81.075" height="70.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Graphic_11">
+          <text transform="translate(194.372 304.5)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="0" y="11">Square</tspan>
+          </text>
+        </g>
+        <g id="Graphic_28">
+          <path d="M 209.4125 324.5 L 249.6625 324.5 C 254.4235 324.5 258.2875 331.78 258.2875 340.75 C 258.2875 349.72 254.4235 357 249.6625 357 L 209.4125 357 C 204.6515 357 200.7875 349.72 200.7875 340.75 C 200.7875 331.78 204.6515 324.5 209.4125 324.5 Z" fill="white"/>
+          <path d="M 209.4125 324.5 L 249.6625 324.5 C 254.4235 324.5 258.2875 331.78 258.2875 340.75 C 258.2875 349.72 254.4235 357 249.6625 357 L 209.4125 357 C 204.6515 357 200.7875 349.72 200.7875 340.75 C 200.7875 331.78 204.6515 324.5 209.4125 324.5 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Graphic_29">
+          <text transform="translate(211.5315 333.25)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="0" y="11">Button</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Group_31">
+        <g id="Graphic_35">
+          <rect x="292.5" y="299" width="81.075" height="70.5" fill="white"/>
+          <rect x="292.5" y="299" width="81.075" height="70.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Graphic_34">
+          <text transform="translate(297.872 305.5)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="0" y="11">Square</tspan>
+          </text>
+        </g>
+        <g id="Graphic_33">
+          <path d="M 312.9125 325.5 L 353.1625 325.5 C 357.9235 325.5 361.7875 332.78 361.7875 341.75 C 361.7875 350.72 357.9235 358 353.1625 358 L 312.9125 358 C 308.1515 358 304.2875 350.72 304.2875 341.75 C 304.2875 332.78 308.1515 325.5 312.9125 325.5 Z" fill="white"/>
+          <path d="M 312.9125 325.5 L 353.1625 325.5 C 357.9235 325.5 361.7875 332.78 361.7875 341.75 C 361.7875 350.72 357.9235 358 353.1625 358 L 312.9125 358 C 308.1515 358 304.2875 350.72 304.2875 341.75 C 304.2875 332.78 308.1515 325.5 312.9125 325.5 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Graphic_32">
+          <text transform="translate(315.0315 334.25)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="0" y="11">Button</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Group_36">
+        <g id="Graphic_40">
+          <rect x="396" y="300" width="81.075" height="70.5" fill="white"/>
+          <rect x="396" y="300" width="81.075" height="70.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Graphic_39">
+          <text transform="translate(401.372 306.5)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="0" y="11">Square</tspan>
+          </text>
+        </g>
+        <g id="Graphic_38">
+          <path d="M 416.4125 326.5 L 456.6625 326.5 C 461.4235 326.5 465.2875 333.78 465.2875 342.75 C 465.2875 351.72 461.4235 359 456.6625 359 L 416.4125 359 C 411.6515 359 407.7875 351.72 407.7875 342.75 C 407.7875 333.78 411.6515 326.5 416.4125 326.5 Z" fill="white"/>
+          <path d="M 416.4125 326.5 L 456.6625 326.5 C 461.4235 326.5 465.2875 333.78 465.2875 342.75 C 465.2875 351.72 461.4235 359 456.6625 359 L 416.4125 359 C 411.6515 359 407.7875 351.72 407.7875 342.75 C 407.7875 333.78 411.6515 326.5 416.4125 326.5 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Graphic_37">
+          <text transform="translate(418.5315 335.25)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="0" y="11">Button</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Group_41">
+        <g id="Graphic_45">
+          <rect x="189" y="381.75" width="81.075" height="70.5" fill="white"/>
+          <rect x="189" y="381.75" width="81.075" height="70.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Graphic_44">
+          <text transform="translate(194.372 388.25)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="0" y="11">Square</tspan>
+          </text>
+        </g>
+        <g id="Graphic_43">
+          <path d="M 209.4125 408.25 L 249.6625 408.25 C 254.4235 408.25 258.2875 415.53 258.2875 424.5 C 258.2875 433.47 254.4235 440.75 249.6625 440.75 L 209.4125 440.75 C 204.6515 440.75 200.7875 433.47 200.7875 424.5 C 200.7875 415.53 204.6515 408.25 209.4125 408.25 Z" fill="white"/>
+          <path d="M 209.4125 408.25 L 249.6625 408.25 C 254.4235 408.25 258.2875 415.53 258.2875 424.5 C 258.2875 433.47 254.4235 440.75 249.6625 440.75 L 209.4125 440.75 C 204.6515 440.75 200.7875 433.47 200.7875 424.5 C 200.7875 415.53 204.6515 408.25 209.4125 408.25 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Graphic_42">
+          <text transform="translate(211.5315 417)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="0" y="11">Button</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Group_46">
+        <g id="Graphic_50">
+          <rect x="292.5" y="382.75" width="81.075" height="70.5" fill="white"/>
+          <rect x="292.5" y="382.75" width="81.075" height="70.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Graphic_49">
+          <text transform="translate(297.872 389.25)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="0" y="11">Square</tspan>
+          </text>
+        </g>
+        <g id="Graphic_48">
+          <path d="M 312.9125 409.25 L 353.1625 409.25 C 357.9235 409.25 361.7875 416.53 361.7875 425.5 C 361.7875 434.47 357.9235 441.75 353.1625 441.75 L 312.9125 441.75 C 308.1515 441.75 304.2875 434.47 304.2875 425.5 C 304.2875 416.53 308.1515 409.25 312.9125 409.25 Z" fill="white"/>
+          <path d="M 312.9125 409.25 L 353.1625 409.25 C 357.9235 409.25 361.7875 416.53 361.7875 425.5 C 361.7875 434.47 357.9235 441.75 353.1625 441.75 L 312.9125 441.75 C 308.1515 441.75 304.2875 434.47 304.2875 425.5 C 304.2875 416.53 308.1515 409.25 312.9125 409.25 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Graphic_47">
+          <text transform="translate(315.0315 418)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="0" y="11">Button</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Group_51">
+        <g id="Graphic_55">
+          <rect x="396" y="383.75" width="81.075" height="70.5" fill="white"/>
+          <rect x="396" y="383.75" width="81.075" height="70.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Graphic_54">
+          <text transform="translate(401.372 390.25)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="0" y="11">Square</tspan>
+          </text>
+        </g>
+        <g id="Graphic_53">
+          <path d="M 416.4125 410.25 L 456.6625 410.25 C 461.4235 410.25 465.2875 417.53 465.2875 426.5 C 465.2875 435.47 461.4235 442.75 456.6625 442.75 L 416.4125 442.75 C 411.6515 442.75 407.7875 435.47 407.7875 426.5 C 407.7875 417.53 411.6515 410.25 416.4125 410.25 Z" fill="white"/>
+          <path d="M 416.4125 410.25 L 456.6625 410.25 C 461.4235 410.25 465.2875 417.53 465.2875 426.5 C 465.2875 435.47 461.4235 442.75 456.6625 442.75 L 416.4125 442.75 C 411.6515 442.75 407.7875 435.47 407.7875 426.5 C 407.7875 417.53 411.6515 410.25 416.4125 410.25 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Graphic_52">
+          <text transform="translate(418.5315 419)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="0" y="11">Button</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Group_56">
+        <g id="Graphic_60">
+          <rect x="187.9625" y="467.5" width="81.075" height="70.5" fill="white"/>
+          <rect x="187.9625" y="467.5" width="81.075" height="70.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Graphic_59">
+          <text transform="translate(193.3345 474)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="0" y="11">Square</tspan>
+          </text>
+        </g>
+        <g id="Graphic_58">
+          <path d="M 208.375 494 L 248.625 494 C 253.386 494 257.25 501.28 257.25 510.25 C 257.25 519.22 253.386 526.5 248.625 526.5 L 208.375 526.5 C 203.614 526.5 199.75 519.22 199.75 510.25 C 199.75 501.28 203.614 494 208.375 494 Z" fill="white"/>
+          <path d="M 208.375 494 L 248.625 494 C 253.386 494 257.25 501.28 257.25 510.25 C 257.25 519.22 253.386 526.5 248.625 526.5 L 208.375 526.5 C 203.614 526.5 199.75 519.22 199.75 510.25 C 199.75 501.28 203.614 494 208.375 494 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Graphic_57">
+          <text transform="translate(210.494 502.75)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="0" y="11">Button</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Group_61">
+        <g id="Graphic_65">
+          <rect x="291.4625" y="468.5" width="81.075" height="70.5" fill="white"/>
+          <rect x="291.4625" y="468.5" width="81.075" height="70.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Graphic_64">
+          <text transform="translate(296.8345 475)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="0" y="11">Square</tspan>
+          </text>
+        </g>
+        <g id="Graphic_63">
+          <path d="M 311.875 495 L 352.125 495 C 356.886 495 360.75 502.28 360.75 511.25 C 360.75 520.22 356.886 527.5 352.125 527.5 L 311.875 527.5 C 307.114 527.5 303.25 520.22 303.25 511.25 C 303.25 502.28 307.114 495 311.875 495 Z" fill="white"/>
+          <path d="M 311.875 495 L 352.125 495 C 356.886 495 360.75 502.28 360.75 511.25 C 360.75 520.22 356.886 527.5 352.125 527.5 L 311.875 527.5 C 307.114 527.5 303.25 520.22 303.25 511.25 C 303.25 502.28 307.114 495 311.875 495 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Graphic_62">
+          <text transform="translate(313.994 503.75)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="0" y="11">Button</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Group_66">
+        <g id="Graphic_70">
+          <rect x="394.9625" y="469.5" width="81.075" height="70.5" fill="white"/>
+          <rect x="394.9625" y="469.5" width="81.075" height="70.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Graphic_69">
+          <text transform="translate(400.3345 476)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="0" y="11">Square</tspan>
+          </text>
+        </g>
+        <g id="Graphic_68">
+          <path d="M 415.375 496 L 455.625 496 C 460.386 496 464.25 503.28 464.25 512.25 C 464.25 521.22 460.386 528.5 455.625 528.5 L 415.375 528.5 C 410.614 528.5 406.75 521.22 406.75 512.25 C 406.75 503.28 410.614 496 415.375 496 Z" fill="white"/>
+          <path d="M 415.375 496 L 455.625 496 C 460.386 496 464.25 503.28 464.25 512.25 C 464.25 521.22 460.386 528.5 455.625 528.5 L 415.375 528.5 C 410.614 528.5 406.75 521.22 406.75 512.25 C 406.75 503.28 410.614 496 415.375 496 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Graphic_67">
+          <text transform="translate(417.494 504.75)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="0" y="11">Button</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Graphic_71">
+        <text transform="translate(536.5 311)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="9237056e-20" y="11">Next player: X</tspan>
+        </text>
+      </g>
+      <g id="Graphic_72">
+        <text transform="translate(541 348.5)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="55422333e-20" y="11">Go to game start</tspan>
+        </text>
+      </g>
+      <g id="Graphic_73">
+        <text transform="translate(541 370.125)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="0" y="11">Go to move #1</tspan>
+        </text>
+      </g>
+      <g id="Graphic_74">
+        <text transform="translate(542.05 392.375)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="0" y="11">Go to move #2</tspan>
+        </text>
+      </g>
+      <g id="Graphic_75">
+        <text transform="translate(542.05 414.25)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="0" y="11">Go to move #3</tspan>
+        </text>
+      </g>
+      <g id="Graphic_76">
+        <text transform="translate(545.5 434.25)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="0" y="11">………..</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>
