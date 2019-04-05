@@ -1,0 +1,18 @@
+== Run the application
+
+In the root folder of the project `tictactoe`, execute the following command to install all dependencies.
+
+[source,bash]
+----
+npm install
+----
+
+In `package.json`, a `start` script for executing `devserver.js` is defined. To start the application, run
+
+[source,bash]
+----
+npm start
+----
+
+The web app is served at port 8080.
+
