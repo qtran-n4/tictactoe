@@ -14,7 +14,9 @@ In `package.json`, a `start` script for starting the Webpack Dev Server serving 
 npm start
 ----
 
-The web app is served at port 8080.
+The Tic-tac-toe web app is served at port 8080 and looks something similar as follows:
+
+image:images/tictactoe-screenshot.png[React component tree]
 
 
 == React components architecture
@@ -33,21 +35,14 @@ In order to make use of N4JS's type checking for React, we need to declare `@n4j
 [source,typescript]
 ----
 {
-
     "name": "tictactoe",
-
     "devDependencies": {
-
-    "@n4jsd/react": "<=16.6.*",
-
+    	"@n4jsd/react": "<=16.6.*",
     },
 
     "dependencies": {
-
         "react": "^16.6.0",
-
     }
-
 }
 ----
 
@@ -67,51 +62,32 @@ In the tree of React components in this application, `Square` is a leaf React co
 /**
  * Square props
  */
-
 interface ~SquareProps extends React.ComponentProps {
     public value: string;
     public onClick: {function(): void}
 }
+
+/**
+ * Square React component
+ */
+function Square(props: SquareProps): React.Element<?> {
+  return (
+    <button className="square" onClick={props.onClick}>
+      {props.value}
+    </button>
+  );
+}
 ----
 
 
+The functional definition of `Square`, in fact of any React component, must have a single `props` parameter of a subtype of `React.ComponentProps` and return an instance of type `React.Element<?>`. In this example, `SquareProps` dictates that when a `Square` is instantiated, it expects two _mandatory_ `props`:
 
-/**
+* `value`: the value of the square, either `X`, `O` or `null`. This is necessary because the state of the squares are managed by parent React component
 
- * Square React component
-
- */
-
-function Square(props: SquareProps): React.Element<?> {
-
-  return (
-
-    <button className="square" onClick={props.onClick}>
-
-      {props.value}
-
-    </button>
-
-  );
-
-}
+* `onClick`: the event handler to be called when the square is clicked
 
 
-
-The functional definition of Square must have a single props parameter and return an instance of type React.Element.
-
-
-
-When a Square is instantiated, it expects two mandatory props described by SquareProps
-
-
-
-value: the value of the square, either X, O or null
-onClick: the event handler to be called when the square is clicked
-
-
-SquareProps, as any data structure describing props of a React component, must extend React.ComponentProps. In addition to having explicit types, the props can be declared as mandatory (as in this example) or optional with the help of the question mark. For instance,  if you declared  public value?: string, value would be an optional prop.
-
+In addition to having explicit types, the props can be declared as mandatory (as in this example) or _optional_ with the help of the question mark. For instance,  if we declare `public value?: string`, it means that `value` would be an optional property when creating `Square`.
 
 
 Here we start to see the advantages of N4JS over the pure non-type JavaScript implementation. When a Square component is created, the compiler will enforce the type of the props. Moreover, it will complain if a mandatory prop is missing. And all these checks happen at compile time. In pure JavaScript, we will recognize those mistakes only at runtime.

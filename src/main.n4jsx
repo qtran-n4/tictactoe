@@ -144,7 +144,7 @@ export default public class Game extends React.Component<React.ComponentProps, G
     if (winner) {
       status = "Winner: " + winner;
     } else {
-      status = "Next player BLAH: " + (this.state.xIsNext ? "X" : "O");
+      status = "Next player: " + (this.state.xIsNext ? "X" : "O");
     }
 
     return (
