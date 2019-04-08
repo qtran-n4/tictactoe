@@ -14,9 +14,7 @@ In `package.json`, a `start` script for starting the Webpack Dev Server serving 
 npm start
 ----
 
-The Tic-tac-toe web app is served at port 8080 and looks something similar as follows:
-
-image:images/tictactoe-screenshot.png[React component tree]
+The Tic-tac-toe web app is served at port 8080.
 
 
 == React components architecture
