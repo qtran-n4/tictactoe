@@ -1,3 +1,7 @@
+== Overview
+
+This project implements the game Tic-tac-toe using N4JS and React. It is heavily based on link:https://reactjs.org/tutorial/tutorial.html[the pure JavaScript implementation] used as introduction to React. 
+
 == Run the application
 
 In the root folder of the project `tictactoe`, execute the following command to install all dependencies.
