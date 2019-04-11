@@ -16,6 +16,19 @@ npm start
 
 The Tic-tac-toe web app is served at port 8080.
 
+== Developer Setup
+
+Follow the following steps to import the app into N4JS IDE.
+
+Step 1: Download the link:https://projects.eclipse.org/projects/technology.n4js/downloads[latest N4JS IDE] for your operating system.
+
+Step 2: The project is already an Eclipse with the `.project` file in the root `vote-example`. Hence, you can simply import it into the N4JS IDE workspace via `File => Import => Existing Projects into Workspace`.
+
+The IDE may complain that npm dependencies declared in `package.json` are missing. Use the quickfix `run npm/yarn in this project` to fix this issue.
+
+Step 3: Open the library manager dialog and choose `Re-Build node_modules`.
+
+Step 4: Clean & Build the project. After this step, the project should has no compilation errors anymore.
 
 == React components architecture
 
@@ -90,6 +103,7 @@ Here we start to see the advantages of N4JS over the pure non-type JavaScript im
 
 
 == Board component
+
 The `Board` React component represents the Tic-tac-toe board. Even though it does not have state, we define it as a class because it contains a helper method.
 
 [source,typescript]
@@ -150,7 +164,7 @@ The Board class, as any class representing a `React component`, must extend `Rea
 
 
 == Game React component
-This is the root React component of this application and hence does not have any props. Instead, it has state represented by GameState which stores the history of the board as an array of states, the step number and whether the next player is `X`.
+This is the root React component of this application and hence does not have any props. Instead, it has state represented by `GameState` which stores the history of the board as an array of states, the step number and whether the next player is `X`.
 
 [source,typescript]
 ----
@@ -193,3 +207,15 @@ export default public class Game extends React.Component<React.ComponentProps, G
 
 
 Here, again thanks to type checking, the N4JS compiler will complain if we access a non-existing field of `GameState` or use the wrong type of a certain field of `GameState` _at compile time_. In pure JavaScript, we will recognize those mistakes only at runtime.
+
+== Build with Webpack
+
+We use Webpack to bundle all JavaScript files of the application, including dependencies such as React, into a single JavaScript file. Webpack is configured in `webpack.config.js`. The following diagram graphically depicts the build process with the help of Webpack.
+
+image:images/react-build-process.svg[]
+
+The entry file used by Webpack to calculate the dependency graph is `src-gen/main.js` which depends on `src-gen/Game.js` and `react-dom` which depends on ... etc. The bundled JavaScript is stored in `public/dist/tictactoe-app.js` which is
+then included in `index.html`.
+
+
+
