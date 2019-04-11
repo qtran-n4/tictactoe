@@ -1,0 +1,50 @@
+import {Square} from "components/Square";
+import * as React from "react";
+
+/**
+ * Board props
+ */
+export public interface ~BoardProps extends React.ComponentProps {
+    public squares: [string];
+    public onClick: {function(int): void}
+}
+
+/**
+ * Board React component
+ */
+export public class Board extends React.Component<BoardProps, Object> {
+  /**
+   * Render the i-th square on the board
+   */	
+  renderSquare(i: int) {
+    return (
+      <Square
+        value={this.props.squares[i]}
+        onClick={() => this.props.onClick(i)}
+      />
+    );
+  }
+
+  @Override
+  public render(): React.Element<?> {
+    return (
+      <div>
+        <div className="board-row">
+          {this.renderSquare(0)}
+          {this.renderSquare(1)}
+          {this.renderSquare(2)}
+        </div>
+        <div className="board-row">
+          {this.renderSquare(3)}
+          {this.renderSquare(4)}
+          {this.renderSquare(5)}
+        </div>
+        <div className="board-row">
+          {this.renderSquare(6)}
+          {this.renderSquare(7)}
+          {this.renderSquare(8)}
+        </div>
+      </div>
+    );
+  }
+}

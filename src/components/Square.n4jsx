@@ -1,0 +1,20 @@
+import * as React from "react";
+
+/**
+ * Square props
+ */
+export public interface ~SquareProps extends React.ComponentProps {
+    public value: string;
+    public onClick: {function(): void}
+}
+
+/**
+ * Square React component
+ */
+export public function Square(props: SquareProps): React.Element<?> {
+  return (
+    <button className="square" onClick={props.onClick}>
+      {props.value}
+    </button>
+  );
+}
